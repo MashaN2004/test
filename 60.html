@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.div1{
+			background: silver;
+			width: 600px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		.div2{
+			background: silver;
+			width: 600px;
+			margin-right: auto;
+			margin-left: auto;
+			display: none;
+		}
+		.div3{
+			background: silver;
+			width: 600px;
+			margin-right: auto;
+			margin-left: auto;
+			display: none;
+		}
+
+		.head{
+			font-size: 30px;
+			width: 600px;
+		}
+		.img{
+			width: 600px;
+		}
+
+		.answer11{
+			background: #feff9c;
+			width: 600px;
+			font-size: 25px;
+			border: 1px solid black;
+		}
+		.answer12{
+			background: #feff9c;
+			width: 600px;
+			font-size: 25px;
+			border: 1px solid black;
+		}
+		.answer13{
+			background: #feff9c;
+			width: 600px;
+			font-size: 25px;
+			border: 1px solid black;
+		}
+
+		.answer21{
+			background: #feff9c;
+			width: 600px;
+			font-size: 25px;
+			border: 1px solid black;
+		}
+		.answer22{
+			background: #feff9c;
+			width: 600px;
+			font-size: 25px;
+			border: 1px solid black;
+		}
+		.answer23{
+			background: #feff9c;
+			width: 600px;
+			font-size: 25px;
+			border: 1px solid black;
+		}
+
+		.answer31{
+			background: #feff9c;
+			width: 600px;
+			font-size: 25px;
+			border: 1px solid black;
+		}
+		.answer32{
+			background: #feff9c;
+			width: 600px;
+			font-size: 25px;
+			border: 1px solid black;
+		}
+		.answer33{
+			background: #feff9c;
+			width: 600px;
+			font-size: 25px;
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+	<div class="div1">
+		<div class="box1">
+			<div class="head">
+				Как звали сову Рона Уизли?
+			</div>
+			<div>
+				<img src="https://secure.diary.ru/userdir/4/9/9/7/4997/5638022.jpg" class="img">
+			</div>
+			<div class="answer11">
+				Сычик
+			</div>
+			<div class="answer12">
+				Букля
+			</div>
+			<div class="answer13">
+				Милнор
+			</div>
+		</div>
+	</div>
+	<div class="div2">
+		<div class="box1">
+			<div class="head">
+				Почему нюхлеров лучше не держать дома?
+			</div>
+			<div>
+				<img src="https://ukranews.com/upload/news/2016/11/23/5835911dd4553----------------------------------------------------------------_1200.jpg" class="img">
+			</div>
+			<div class="answer21">
+				Они способны срыть весь дом
+			</div>
+			<div class="answer22">
+				Они питаются монетами
+			</div>
+			<div class="answer23">
+				Они кусаются
+			</div>
+		</div>
+	</div>
+	<div class="div3">
+		<div class="box1">
+			<div class="head">
+				Что это за птица?
+			</div>
+			<div>
+				<img src="https://dropi.ru/img/uploads/2017-11-22/33_w730.jpeg" class="img">
+			</div>
+			<div class="answer31">
+				Феникс
+			</div>
+			<div class="answer32">
+				Гиппогриф
+			</div>
+			<div class="answer33">
+				Гром-птица
+			</div>
+		</div>
+	</div>
+
+
+
+	<script type="text/javascript">
+		document.querySelector('.answer11').onclick = function(){
+			alert("правильно")  
+			document.querySelector('.div2').style.display = 'block';
+			document.querySelector('.div1').style.display = 'none';	
+		}
+		document.querySelector('.answer22').onclick = function(){
+			alert("правильно")  
+			document.querySelector('.div3').style.display = 'block';
+			document.querySelector('.div2').style.display = 'none';	
+		}
+		document.querySelector('.answer33').onclick = function(){
+			alert("правильно")  
+			document.querySelector('.div1').style.display = 'block';
+			document.querySelector('.div3').style.display = 'none';	
+		}
+		document.querySelector('.answer12').onclick = function(){
+			alert("Неправильно")  
+		}
+		document.querySelector('.answer13').onclick = function(){
+			alert("Неправильно")  
+		}
+		document.querySelector('.answer21').onclick = function(){
+			alert("Неправильно")  
+		}
+		document.querySelector('.answer23').onclick = function(){
+			alert("Неправильно")  
+		}
+		document.querySelector('.answer31').onclick = function(){
+			alert("Неправильно")  
+		}
+		document.querySelector('.answer32').onclick = function(){
+			alert("Неправильно")  
+		}
+	</script>
+</body>
+</html>
